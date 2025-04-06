@@ -64,7 +64,7 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
 
 #############################################################################################################################
 
-##Deploy node application using dockerfile and commondline
+##Deploy node application using dockerfile and commandline
 
 1. Create ec2 instance and launch
 2. Install docker
