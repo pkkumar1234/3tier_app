@@ -100,7 +100,8 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
               -p 3306:3306 \
               mysql
     
-19. Run backend network and add with credential  
+19. Run backend network and add with credential
+    
                 docker run -d \
                  --name backend-con \
                  --network mynetwork \
@@ -110,6 +111,7 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
                  -e DB_NAME=appdb \
                  -p 3000:3000 \
                  App-backend
+    
 14. Go to mysql container dump script.sql or manually create table
             USE appdb;
             
