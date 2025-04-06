@@ -113,15 +113,15 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
                  App-backend
     
 14. Go to mysql container dump script.sql or manually create table
+    
             USE appdb;
-            
             -- Create the apptb table
             CREATE TABLE `appdb`.`apptb` (
               `id` INT NOT NULL AUTO_INCREMENT,
               `name` VARCHAR(45) NOT NULL,
               PRIMARY KEY (`id`));
 
-15. After restart container
+16. After restart container
     - docker restart container-name 
 
    
