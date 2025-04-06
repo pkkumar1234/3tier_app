@@ -77,7 +77,7 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
     - https://github.com/pkkumar1234/3tier_app.git
 7. Go to frontend directory and inside src folder in App.js file open and change
    
-    - const URL = "http://<your-ip-address>:3000";
+     const URL = "http://<your_ip_address>:3000";
    
 8. Create image for frontend
      - docker build -t front-img .
