@@ -101,15 +101,15 @@ This example serves as a beginner-friendly resource to learn about full-stack Do
               mysql
     
 19. Run backend network and add with credential  
-             docker run -d \
-              --name backend-con \
-              --network mynetwork \
-              -e DB_HOST=db \
-              -e DB_USER=root \
-              -e DB_PASSWORD=pass123 \
-              -e DB_NAME=appdb \
-              -p 3000:3000 \
-              App-backend
+                docker run -d \
+                 --name backend-con \
+                 --network mynetwork \
+                 -e DB_HOST=db \
+                 -e DB_USER=root \
+                 -e DB_PASSWORD=pass123 \
+                 -e DB_NAME=appdb \
+                 -p 3000:3000 \
+                 App-backend
 14. Go to mysql container dump script.sql or manually create table
             USE appdb;
             
